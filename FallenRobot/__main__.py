@@ -75,24 +75,32 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_IMG = "https://files.catbox.moe/2malxb.jpg"
+PM_START_IMG = "https://telegra.ph/file/b8a02e0b010714a1bba34.jpg"
 
 PHOTO = [
-    "https://files.catbox.moe/2malxb.jpg",
+    "https://telegra.ph/file/5406ed880a8089c6add3b.jpg",
 ]
 
 
 IMG = [
-    "https://files.catbox.moe/2malxb.jpg",
+    "https://te.legra.ph/file/1de42c29380053da56aed.jpg",
 ]
 
 
 PM_START_TEXT = """
-*Hello* {}[✨]({})
- I Aᴍ Yᴏᴜʀ  HANABI. HYUGA ᴛʜᴇᴍᴇᴅ ᴍᴀɴɢᴇᴍᴇɴᴛ ʙᴏᴛ 
-▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-🌌 Cᴏɴᴛʀᴏʟ Yᴏᴜʀ Gʀᴏᴜᴘ Eғғᴏʀᴛʟᴇssʟʏ.Tʏᴘᴇ /ʜᴇʟᴘ Tᴏ Uɴᴠᴇɪʟ Yᴏᴜʀ Lᴏᴠᴇ.
-Lᴇᴛ's Bʀɪɴɢ Oʀᴅᴇʀ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ!.
+*ʜєу* {}[⚡]({})
+
+ ɪ'ᴍ 𝙶ᴏᴊᴏ ᴏғ sɪx ᴇʏᴇs !
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ:
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+・ᴘʜ-ʟᴏɢᴏ ᴍᴀᴋᴇʀ.
+・ꜱᴘᴀᴍ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ.
+・ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ.
+・ɢᴀᴍᴇs.
+・ᴀɪ ᴄʜᴀᴛʙᴏᴛ.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+‣ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.
 """
 buttons = [
     [
@@ -106,7 +114,7 @@ buttons = [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="dazai_"),
     ],
     [
-        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇ", url=f"https://t.me/lolpagalokigc"),
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇ", url=f"https://t.me/Legit_Networks"),
         InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -123,13 +131,13 @@ GROUP_START_BTN = [
     ],
     [
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/Infamous_Hydra"),
+        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/Legit_NEtworks"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-  Main commands available: [ ](https://telegra.ph/file/ca85acf32b0c086c340b8.jpg)
+  Main commands available: [ ](https://files.catbox.moe/6f9lvj.jpg)
  
  ➛ /help: PM's you this message.  
  ➛ /help <module name>: PM's you info about that module.
@@ -390,7 +398,7 @@ def dazai_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="Uᴘᴅᴀᴛᴇꜱ",
-                            url="https://t.me/lolpagalokigc",
+                            url="https://t.me/legit_networks",
                         ),
                     ],
                     [
